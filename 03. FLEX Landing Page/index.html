@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Landing Page - Práctica 3</title>
+    <link
+      rel="icon"
+      href="https://res.cloudinary.com/dd0zwrz0b/image/upload/v1717172992/03.%20FLEX%20Landing%20Page/favicon_pfjqur.png"
+      type="image/x-icon"
+    />
+    <meta
+      name="description"
+      content="Práctica CSS Flex en RockTheCode que replica una web sobre Terry Pratchett"
+    />
+    <meta name="author" content="Juanma 'Goblin' Martínez" />
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.terrypratchettbooks.com/">
+    <meta name="keywords" content="práctica, CSS, Flex, Terry Pratchett, RockTheCode, réplica, goblin proyect">
+    <link rel="stylesheet" href="./style.css">
+    <html prefix="og: https://ogp.me/ns#">
+    <meta property="og:title" content="Flex - Práctica 3" />
+    <meta property="og:description" content="Práctica CSS Flex en RockTheCode que replica una web sobre Terry Pratchett">
+    <meta property="og:type" content="website" />
+    <!-- FALTA URL DE NETLIFY EN "content" -->
+    <!-- <meta property="og:url" content="https://pr-ctica-01-01-arquitectura-de-la-informaci-n.vercel.app/" /> -->
+    <meta property="og:image" content="https://res.cloudinary.com/dd0zwrz0b/image/upload/v1717172992/03.%20FLEX%20Landing%20Page/favicon_pfjqur.png" />
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Flex - Práctica 3">
+    <meta name="twitter:description" content="Práctica CSS Flex en RockTheCode que replica una web sobre Terry Pratchett">
+    <meta name="twitter:site" content="@flexpractica3">
+    <meta name="twitter:creator" content="@juanmagoblinmartinez">
+    <meta name="twitter:image" content="https://res.cloudinary.com/dd0zwrz0b/image/upload/v1717172992/03.%20FLEX%20Landing%20Page/favicon_pfjqur.png">
+  </head>
+  <body>
+    <header>
+      <div class="container-in-line">
+        <img id="small-gods-detail" src="https://res.cloudinary.com/dd0zwrz0b/image/upload/v1717172994/03.%20FLEX%20Landing%20Page/logo_xgzxaa.webp" alt="Drawing of an eagle throwing a turtle, from the book cover of the novel entitled Small Gods" title="Small Gods cover book detail" loading="lazy"> 
+        <div class="container-in-column">
+          <h1>SIR TERRY PRATCHETT</h1>
+          <h2>The life and works of Sir Terry Pratchett OBE</h2>
+        </div>
+        <input type="checkbox" id="menu-checkbox">
+        <label for="menu-checkbox" class="menu-icon">
+          <img id="burger-icon" src="https://res.cloudinary.com/dd0zwrz0b/image/upload/v1717260336/03.%20FLEX%20Landing%20Page/Hamburger_icon.svg_ykipvr.png" alt="burger menu icon" loading="lazy">
+          <img id="closing-icon" src="https://res.cloudinary.com/dd0zwrz0b/image/upload/v1717260270/03.%20FLEX%20Landing%20Page/2014529-200_thngda.png" alt="cross closing button" loading="lazy">
+        </label>
+      </div>
+      <nav class="container-in-line" id="header-navbar">
+        <ul class="container-in-line">
+          <!-- HE DESCARTADO EL ICONO DEL CHEURÓN VERDE JUNTO A LOS DOS PRIMEROS <LI> -->
+          <li><a href="#" aria-label="go to Pratchett's boooks">BOOKS</a></li>
+          <li><a href="#" aria-label="go to Discworld novels">DISCWORLD</a></li>
+          <li><a href="#" aria-label="go to Pratchett's bio">ABOUT SIR TERRY</a></li>
+          <li><a href="#" aria-label="go to forums">FORUMS</a></li>
+          <li><a href="#" aria-label="go to related links">LINKS</a></li>
+        </ul>
+        <div class="container-in-line">
+          <a href="#" aria-label="go to Facebook"><img class="image-button" src="https://res.cloudinary.com/dd0zwrz0b/image/upload/v1717178579/03.%20FLEX%20Landing%20Page/facebook_dvngcu.svg" alt="Facebook logo" loading="lazy"></a>
+          <a href="#" aria-label="go to Twitter"><img class="image-button" src="https://res.cloudinary.com/dd0zwrz0b/image/upload/v1717178625/03.%20FLEX%20Landing%20Page/twitter_copia_zzqbon.svg" alt="Twitter logo" loading="lazy"></a>
+        </div>
+      </nav>
+      <div class="container-in-line">
+        <p>Sign up to the Terry Pratchett newsletter</p>
+        <div class="container-in-line">
+          <a href="#" aria-label="sign up button"><button class="button-white">SIGN UP</button></a>
+          <a href="#" id="cross-button"><img class="image-button" src="https://res.cloudinary.com/dd0zwrz0b/image/upload/v1717260270/03.%20FLEX%20Landing%20Page/2014529-200_thngda.png" alt="cross closing button" loading="lazy"></a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="container-in-line">
+          <a href="#" aria-label="chevron left"><img class="image-button" id="chevron-left" src="https://res.cloudinary.com/dd0zwrz0b/image/upload/v1717444749/03.%20FLEX%20Landing%20Page/Chevron_left_font_awesome.svg_chfhua.png" alt="chevron left" loading="lazy"></a>
+          <div class="container-in-line" id="main-hero-container">
+            <img src="https://res.cloudinary.com/dd0zwrz0b/image/upload/v1717172994/03.%20FLEX%20Landing%20Page/imagen_1_ela2np.webp" alt="book entitled A Stroke of the Pen" loading="lazy">
+            <div class="container-in-column" id="info-hero">
+              <h2>A DRAWING COMPETITION FOR ALL AGES</h2>
+              <h3>ENTER BEFORE THE END OF MAY</h3>
+              <p>Find out how to win your drawing in A Stroke of the Pen! Two categories: one for adults and one for kids means anyone could be a winner!</p>
+              <a href="#" aria-label="go to find out more"><button class="button-green">FIND OUT MORE</button></a>
+              <div class="container-in-line" id="chevron-secondary-container">
+                <a href="#" aria-label="chevron left"><img class="image-button" id="chevron-left-secondary" src="https://res.cloudinary.com/dd0zwrz0b/image/upload/v1717444749/03.%20FLEX%20Landing%20Page/Chevron_left_font_awesome.svg_chfhua.png" alt="chevron left" loading="lazy"></a>
+                <a href="#" aria-label="chevron right"><img class="image-button" id="chevron-right-secondary" src="https://res.cloudinary.com/dd0zwrz0b/image/upload/v1717444749/03.%20FLEX%20Landing%20Page/1200px-Chevron_right_font_awesome.svg_w7hzkz.png" alt="chevron right" loading="lazy"></a>
+              </div>
+            </div>
+          </div>
+          <a href="#" aria-label="chevron right"><img class="image-button" id="chevron-right" src="https://res.cloudinary.com/dd0zwrz0b/image/upload/v1717444749/03.%20FLEX%20Landing%20Page/1200px-Chevron_right_font_awesome.svg_w7hzkz.png" alt="chevron right" loading="lazy"></a>
+      </section>
+      <section class="container-in-line">
+        <article class="container-in-column">
+          <img class="article-image" src="https://res.cloudinary.com/dd0zwrz0b/image/upload/v1717518332/03.%20FLEX%20Landing%20Page/a-stroke-of-the-pen_hqwurr.png" alt="book entitled A Stroke of the Pen" loading="lazy">
+          <h3>SPOTLIGHT ON: A STROKE OF THE PEN</h3>
+          <p>20 previously undiscovered short stories</p>
+          <a href="#" aria-label="go to novel entitled A Stroke of the Pen"><button class="button-green">READ MORE</button></a>
+        </article>
+        <article class="container-in-column">
+          <img class="article-image" src="https://res.cloudinary.com/dd0zwrz0b/image/upload/v1717172995/03.%20FLEX%20Landing%20Page/TerryPratchett_c_RobWilkins_qpebbh.webp" alt="Terry Pratchett with hat" loading="lazy">
+          <h3>ABOUT SIR TERRY</h3>
+          <p>Find out more about Sir Terry Pratchett’s books, plus all manner of things Discworld</p>
+          <a href="#" aria-label="go to Terry Pratchett bio"><button class="button-green">READ MORE</button></a>
+        </article>
+        <article class="container-in-column">
+          <img class="article-image" src="https://res.cloudinary.com/dd0zwrz0b/image/upload/v1717518447/03.%20FLEX%20Landing%20Page/death_character_image_gmu9jo.png" alt="drawing of Pratchett's Death character" loading="lazy">
+          <h3>DISCWORLD CHARACTERS</h3>
+          <p>Discover key characters in the Discworld series and which books they feature in</p>
+          <a href="#" aria-label="go to Discworld characters"><button class="button-green">READ MORE</button></a>
+        </article>
+      </section>
+      <section class="container-in-column">
+          <img class="quote-marks" id="secondary-quotes" src="https://res.cloudinary.com/dd0zwrz0b/image/upload/v1717723965/03.%20FLEX%20Landing%20Page/quotes_both_dnnmva.png" alt="secondary quotation marks" loading="lazy">
+        <div class="container-in-line">
+          <img class="quote-marks" src="https://res.cloudinary.com/dd0zwrz0b/image/upload/v1717260968/03.%20FLEX%20Landing%20Page/7350737_l5jfmj.png" alt="opening quotation marks" loading="lazy">
+          <h2 class="container-in-column"><span>THE TERRY PRATCHETT </span>QUOTE GENERATOR</h2>
+          <img class="quote-marks" src="https://res.cloudinary.com/dd0zwrz0b/image/upload/v1717260969/03.%20FLEX%20Landing%20Page/7350738_btteiz.png" alt="closing quotation marks" loading="lazy">
+        </div>
+        <div class="container-in-line">
+          <a href="#" aria-label="generate a quote from the bests of Terry Pratchett"><button class="button-white-black-text">BEST OF PRATCHETT</button></a>
+          <a href="#" aria-label="generate a Pratchett’s quote to make me laugh"><button class="button-white-black-text">MAKE ME LAUGH</button></a>
+          <a href="#" aria-label="generate a Pratchett’s quote to make me think"><button class="button-white-black-text">MAKE ME THINK</button></a>
+        </div>
+      </section>
+      <section class="container-in-column">
+        <h2>EXPLORE THE WORLD OF TERRY PRATCHETT</h2>
+        <div class="container-in-line">
+          <div class="container-in-column">
+            <a href="#" aria-label="go to Discworld novels"><img class="image-book" src="https://res.cloudinary.com/dd0zwrz0b/image/upload/v1717172995/03.%20FLEX%20Landing%20Page/The-Colour-of-Magic_vgnts2.jpg" alt="novel entitled The Colour of Magic" loading="lazy"></a>
+            <a href="#" aria-label="go to Discworld novels"><h4>DISCWORLD</h4></a>
+          </div>
+          <div class="container-in-column">
+            <a href="#" aria-label="go to standalone novels"><img class="image-book" src="https://res.cloudinary.com/dd0zwrz0b/image/upload/v1717172993/03.%20FLEX%20Landing%20Page/good-omens_sdtrtz.jpg" alt="novel entitled Good Omens" loading="lazy"></a>
+            <a href="#" aria-label="go to standalone novels"><h4>STANDALONES</h4></a>
+          </div>
+          <div class="container-in-column">
+            <a href="#" aria-label="go to standalone novels"><img class="image-book" src="https://res.cloudinary.com/dd0zwrz0b/image/upload/v1717172993/03.%20FLEX%20Landing%20Page/i-shall-wear-midnight_cwkdgn.jpg" alt="novel entitled I Shall Wear Midnight" loading="lazy"></a>
+            <a href="#" aria-label="go to standalone novels"><h4>YOUNGER READERS</h4></a>
+          </div>
+          <div class="container-in-column">
+            <a href="#" aria-label="go to The Long Earth novels"><img class="image-book" src="https://res.cloudinary.com/dd0zwrz0b/image/upload/v1717172995/03.%20FLEX%20Landing%20Page/the-long-earth_amxbgk.jpg" alt="novel entitled The Long Earth" loading="lazy"></a>
+            <a href="#" aria-label="go to The Long Earth novels"><h4>THE LONG EARTH</h4></a>
+          </div>
+          <div class="container-in-column">
+            <a href="#" aria-label="go to short stories"><img class="image-book" src="https://res.cloudinary.com/dd0zwrz0b/image/upload/v1717172992/03.%20FLEX%20Landing%20Page/a-blink-of-the-screen_ce0gic.jpg" alt="novel entitled A Blink of the Screen" loading="lazy"></a>
+            <a href="#" aria-label="go to short stories"><h4>SHORT STORIES</h4></a>
+          </div>
+          <div class="container-in-column">
+            <a href="#" aria-label="go to plays"><img class="image-book" src="https://res.cloudinary.com/dd0zwrz0b/image/upload/v1717172993/03.%20FLEX%20Landing%20Page/guards-guards_plps1d.jpg" alt="book of the play entitled Guards! Guards!" loading="lazy"></a>
+            <a href="#" aria-label="go to plays"><h4>DRAMATISATIONS</h4></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container-in-column">
+        <p>All images on this page are copyright Penguin Random House except the following images:</p>
+        <ul>
+          <li>Death Character Image © Paul Kidby</li>
+          <li>Eagle illustration © Josh Kirby</li>
+          <li>Terry Pratchett with steam train © Pratchett Estate</li>
+        </ul>
+      </div>
+      <div class="container-in-line">
+        <div class="container-in-line">
+          <img src="https://res.cloudinary.com/dd0zwrz0b/image/upload/v1717660327/03.%20FLEX%20Landing%20Page/mb-penguinrandomhouse-01_vbdnqx.jpg" alt="Penguin Random House logo" loading="lazy">
+          <div class="container-in-column">
+            <p>Penguin Books Limited</p>
+            <p>A <span><a href="#" aria-label="go to Penguin Random House web">Penguin Random House</a></span> Company</p>
+          </div>
+        </div>
+        <div class="container-in-column">
+        <nav id="footer-policies-links">
+          <ul class="container-in-line">
+            <li><a href="#" aria-label="go to Penguin privacy policy">Penguin Privacy Policy</a></li>
+            <li><a href="#" aria-label="go to terms of service">Terms of Service</a></li>
+            <li><a href="#" aria-label="go to cookies policy">Cookie Policy</a></li>
+          </ul>
+        </nav>
+        <p>©1995 - 2024 Penguin Books Ltd. Registered number: 861590 England.</p>
+        <p>Registered office: 20 Vauxhall Bridge Road, London, SW1V 2SA UK.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
